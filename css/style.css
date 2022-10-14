@@ -202,6 +202,7 @@ footer {
 	#boxes .box,
 	article#main-col,
 	aside#sidebar {
+        flex:auto;
 		float:none;
 		text-align:center;
 		width:100%;
