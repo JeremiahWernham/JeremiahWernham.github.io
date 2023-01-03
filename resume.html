@@ -19,7 +19,7 @@
                 display: inline; 
                 float: right; 
                 width: 70%;
-                padding: 10pt 10pt 10pt 10pt;
+                padding: 15pt 10pt 10pt 10pt;
             }
 
             .sidebar {
@@ -44,7 +44,7 @@
                 font-style: normal; 
                 font-weight: bold; 
                 text-decoration: none; 
-                text-indent: 24pt;
+                padding-left: 24pt;
                 font-size: 14pt; 
             }
 
@@ -56,7 +56,7 @@
                 text-decoration: none; 
                 font-size: 13pt; 
                 padding-bottom: 12pt;
-                text-indent: 24pt;
+                padding-left: 24pt;
                 line-height: 15pt;
             }
 
@@ -67,11 +67,25 @@
                 font-weight: bold; 
                 text-decoration: none; 
                 font-size: 11pt; 
-                text-indent: 24pt;
+                padding-left: 24pt;
             }
 
             span {
                 float: right;
+            }
+
+            .b1 {
+                color: #373d3f; 
+                font-family:"Nirmala UI", sans-serif; 
+                font-style: normal; 
+                font-weight: bold; 
+                text-decoration: none; 
+                font-size: 11pt; 
+                padding: 2pt;
+                border-width: 1pt;
+                border-color: #373d3f;
+                border-top-style: solid;
+                border-bottom-style: solid;
             }
 
             .s1 { 
@@ -93,7 +107,7 @@
                 font-size: 11pt; 
                 padding-top: 2pt;
                 padding-left: 14pt;
-                text-indent: 14pt;
+                padding-left: 14pt;
             }
 
             .s3 { 
@@ -103,11 +117,11 @@
                 font-weight: normal; 
                 text-decoration: none; 
                 font-size: 11pt; 
-                text-indent: 24pt;
+                padding-left: 24pt;
             }
 
             .s4 {
-                text-indent: 24pt;
+                padding-left: 24pt;
             }
 
             .s5 {
@@ -161,14 +175,25 @@
                 text-indent: -14pt;
             }
 
+            /* Media Queries */
+            @media(max-width: 1100px) {
+                main,
+                #sidebar {
+                    float:none;
+                    width:50%;
+                }        
+                
+                body {
+                    margin: 10pt 0pt 700pt 0pt;
+                }
+            }
+
         </style>
     </head>
     <body>
         <div class="main">
             <p><br/></p>
-            <p style="padding-left: 2pt; margin-top: -6pt;">______________________________________________________________________________________________________</p>
-            <p class="s1" style="margin-bottom: -3pt;">WORK EXPERIENCE</p>
-            <p style="padding-left: 2pt;line-height: 0pt;">______________________________________________________________________________________________________</p>
+            <p class="b1">WORK EXPERIENCE</p>
             <p><br/></p>
             <p class="s1">Technical Associate, Full Time</p>
             <p class="s5">Phreesia Inc., Ottawa, ON <span>2022-02 – 2022-09</span></p>
@@ -201,9 +226,7 @@
                 <li>Collaborated with third-level IT teams using Atlassian JIRA and Microsoft Excel to track ongoing projects and coordinate with technicans in the field</li>
             </ul>
             <p><br/></p>
-            <p style="padding-left: 2pt;">______________________________________________________________________________________________________</p>
-            <p class="s1" style="margin-bottom: -3pt;">EDUCATION</p>
-            <p style="padding-left: 2pt;line-height: 0pt;">______________________________________________________________________________________________________</p>
+            <p class="b1">EDUCATION</p>
             <p><br/></p>
             <p class="s1">Bachelor of Computing</p>
             <p class="s5">University of Guelph, Guelph, ON <span>2016-09 – 2021-12</span></p>
@@ -255,7 +278,7 @@
             </ul>
             <p><br/><br/></p>
             <h2>Certifications</h2>
-            <h4>Splunk Fundamentals 1</h4>
+            <h4>Splunk Fundamentals</h4>
             <p class="s3">Splunk, 2020-02</p>
             <p><br/></p>
             <h4>Inbound Marketing</h4>
