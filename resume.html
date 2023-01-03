@@ -12,7 +12,7 @@
             }
 
             body {
-                margin: 10pt 140pt 700pt 140pt;
+                margin: 10pt 140pt 10pt 140pt;
             }
 
             .main {
@@ -181,23 +181,30 @@
                 text-indent: -14pt;
             }
 
+            footer {
+                display: block;
+                float: none;
+                clear: both;
+                width: 100%;
+            }
+
             /* Media Queries */
             @media(max-width: 1100px) {       
                 
                 main {
-                    float: none;
+                    float: right;
                     display: inline; 
                     width: 70%;
                 }
 
                 #sidebar {
-                    float: none;
+                    float: left;
                     display: inline; 
                     width: 25%;
                 }
 
                 body {
-                    margin: 10pt 0pt 700pt 0pt;
+                    margin: 10pt 0pt 10pt 0pt;
                 }
 
             }
@@ -303,6 +310,10 @@
                 <li>Demonstrated agile team methodologies when designing and implementing an online 3D checkers game using C# and Unity WebGL with rigid project specifications</li>
             </ul>
         </div>
+        
+        <footer>
+            <br/>
+        </footer>
         
     </body>
 </html>
