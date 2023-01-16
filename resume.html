@@ -171,15 +171,18 @@
             }
 
             /* Media Queries */
-            @media(max-width: 1000px) {       
+            @media screen and (max-width: 1000px) {       
 
                 body {
                     margin: 10pt 20pt 10pt 20pt;
+                    font-size: clamp(16px, 4vw, 22px);
                 }
 
                 span {
                     font-size: 10pt !important;
                 }
+
+                
 
             }
 
