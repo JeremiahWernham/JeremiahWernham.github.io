@@ -28,8 +28,13 @@
 
             .grid-container {
                 display: grid;
-                grid-template-columns: 1fr 2fr;
+                grid-template-columns: 24px auto 2fr;
                 padding: 15pt 0pt 10pt 0pt;
+            }
+
+            .container {
+                display: inline;
+                padding: 5px 0px 5px 0px;
             }
             
             p { 
@@ -48,7 +53,6 @@
                 font-style: normal; 
                 font-weight: bold; 
                 text-decoration: none; 
-                padding-left: 24pt;
                 font-size: 20pt; 
             }
 
@@ -60,7 +64,6 @@
                 text-decoration: none; 
                 font-size: 13pt; 
                 padding-bottom: 12pt;
-                padding-left: 24pt;
             }
 
             h4 { 
@@ -70,7 +73,6 @@
                 font-weight: bold; 
                 text-decoration: none; 
                 font-size: 11pt; 
-                padding-left: 24pt;
             }
 
             span {
@@ -101,18 +103,6 @@
                 padding-left: 3pt;
             }
 
-            .s2 { 
-                color: #373d3f; 
-                font-family:"Nirmala UI", sans-serif; 
-                font-style: normal; 
-                font-weight: normal; 
-                text-decoration: none; 
-                font-size: 11pt; 
-                padding-top: 2pt;
-                padding-left: 14pt;
-                padding-left: 14pt;
-            }
-
             .s3 { 
                 color: #373d3f; 
                 font-family:"Nirmala UI", sans-serif; 
@@ -120,11 +110,6 @@
                 font-weight: normal; 
                 text-decoration: none; 
                 font-size: 11pt; 
-                padding-left: 24pt;
-            }
-
-            .s4 {
-                padding-left: 24pt;
             }
 
             .s5 {
@@ -203,6 +188,8 @@
     </head>
     <body>
         <div class="grid-container">
+            <div class="grid-item">
+            </div>
             <div class="grid-item">
                 <h1>Jeremiah</h1>
                 <h1 style="padding-top: 2pt;">Wernham</h1>
