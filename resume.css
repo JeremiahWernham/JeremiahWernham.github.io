@@ -1,0 +1,145 @@
+* {
+    margin:0; 
+    padding:0; 
+    text-indent:0;
+}
+
+body {
+    margin: 10px 42px 10px 42px;
+    -webkit-text-size-adjust: none;
+    font-size: clamp(16px, 4vw, 22px);
+    line-height: 120%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.grid-item {
+    margin: 15px 10px 10px 10px;
+}
+
+.container {
+    display: block;
+    margin-bottom: 10px;
+}
+
+p { 
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 16px; 
+    margin:0px; 
+}
+
+h1 { 
+    color: #373d3f; 
+    font-family:"Century Gothic", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 30px; 
+}
+
+h2 { 
+    color: #373d3f; 
+    font-family:"Century Gothic", sans-serif;
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 20px; 
+    padding-bottom: 5px;
+}
+
+h4 { 
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+span {
+    float: right;
+}
+
+.b1 {
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding: 2px;
+    border-width: 1px;
+    border-color: #373d3f;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.s1 { 
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 18px; 
+}
+
+.s3 { 
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 18px; 
+    padding-left: 3px;
+}
+
+a {
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: bold; 
+    text-decoration: none; 
+    font-size: 18px; 
+    box-shadow: inset 0 0 0 0 #0462C1;
+    color: #0462C1;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+a:hover {
+    box-shadow: inset 200px 0 0 0 #0462C1;
+    color: white;
+}
+
+#l1 {
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 16px;
+    list-style-position: inside;
+}
+
+#l1 li {
+    padding-left: 30px;
+    text-indent: -14px;
+}
+
+#l2 {
+    color: #373d3f; 
+    font-family:"Nirmala UI", sans-serif; 
+    font-style: normal; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-size: 16px;
+    list-style-position: inside;
+    padding-left: 3px;
+}
