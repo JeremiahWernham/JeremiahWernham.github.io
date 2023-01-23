@@ -19,7 +19,7 @@ body {
     margin: 15px 10px 10px 10px;
 }
 
-.container {
+.block-container {
     display: block;
     margin-bottom: 10px;
     line-height: 120%;
